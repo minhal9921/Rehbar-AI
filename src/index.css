@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Source Serif 4", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-sans: "Geist", ui-sans-serif, system-ui, sans-serif;
+  --color-brand-bg: #F8F8F6;
+  --color-brand-black: #111111;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-brand-bg text-brand-black font-sans antialiased;
+  }
+}
+
+@layer components {
+  .sidebar-icon-btn {
+    @apply w-9 h-9 flex items-center justify-center rounded-xl text-black/50 hover:bg-black/[0.06] hover:text-black/70 transition-all cursor-pointer;
+  }
+}
+
+/* Premium minimal scrollbar globally */
+* {
+  scrollbar-width: thin !important;
+  scrollbar-color: rgba(0, 0, 0, 0.1) transparent !important;
+}
+
+*::-webkit-scrollbar {
+  width: 4px !important;
+  height: 4px !important;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent !important;
+  margin: 4px 0;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.12) !important;
+  border-radius: 100px !important;
+  min-height: 30px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.25) !important;
+}
+
+.sleek-scroll::-webkit-scrollbar-corner {
+  background: transparent !important;
+}
