@@ -1,25 +1,3 @@
-<<<<<<< HEAD
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
-
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/fca4ac48-f662-4c1c-b699-bc036310ea4c
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
-=======
 # 🎓 Rehbar AI — Intelligent Career Counselor
 
 **Rehbar AI** is a minimalist, intelligent career counseling platform designed to help students and professionals navigate their career paths with clarity. Built as part of the **Google AI Seekho Hackathon 🇵🇰**, it leverages state-of-the-art Generative AI to provide personalized guidance.
@@ -66,4 +44,4 @@ npm install
 npm run dev
 
 Note: Make sure to create a .env file in the root directory and add your credentials (refer to .env.example).
->>>>>>> c0b78ef44552b027a0e828bafee17c28e493b296
+
