@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div align="center">
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
@@ -18,3 +19,51 @@ View your app in AI Studio: https://ai.studio/apps/fca4ac48-f662-4c1c-b699-bc036
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+=======
+# 🎓 Rehbar AI — Intelligent Career Counselor
+
+**Rehbar AI** is a minimalist, intelligent career counseling platform designed to help students and professionals navigate their career paths with clarity. Built as part of the **Google AI Seekho Hackathon 🇵🇰**, it leverages state-of-the-art Generative AI to provide personalized guidance.
+
+🔗 **Live Demo:** [rehbarai.tech](https://rehbarai.tech/)
+
+---
+
+## 🌟 Key Features
+- **Smart Career Guidance:** Powered by **Gemini 2.5 Flash** for high-speed, nuanced, and context-aware counseling.
+- **Minimalist UI:** Clean and fast user interface built with React and Vite.
+- **Production-Ready:** Fully containerized using Docker and deployed on enterprise-grade infrastructure.
+- **Scalable Backend:** Integrated with Vertex AI for Firebase for seamless AI communication.
+
+## 🛠️ Tech Stack
+- **Frontend:** React.js, Vite, Tailwind CSS
+- **AI/ML:** Google Gemini 2.5 Flash (via Vertex AI)
+- **Backend/SDK:** Firebase SDK for Cloud Functions / Vertex AI
+- **DevOps:** Docker, Google Cloud Run (Serverless Deployment)
+- **Cloud:** Google Cloud Platform (GCP)
+
+## 🏗️ Architecture
+1. **User Input:** Captured via a responsive React frontend.
+2. **Processing:** Requests are sent through the Vertex AI for Firebase SDK.
+3. **AI Brain:** Gemini 2.5 Flash processes the query using optimized system prompts for career coaching.
+4. **Deployment:** The entire app is containerized in a Docker image and served via Google Cloud Run for high availability.
+
+## 🚀 Getting Started
+
+### Prerequisites
+* **Node.js** (v18+)
+* **Docker** (Optional, for containerization)
+* **Firebase/GCP Account**
+
+### ⚙️ Installation & Setup
+```bash
+# 1. Clone the Repository
+git clone [https://github.com/your-username/rehbar-ai.git](https://github.com/your-username/rehbar-ai.git)
+
+# 2. Install Dependencies
+npm install
+
+# 3. Run Development Server
+npm run dev
+
+Note: Make sure to create a .env file in the root directory and add your credentials (refer to .env.example).
+>>>>>>> c0b78ef44552b027a0e828bafee17c28e493b296
